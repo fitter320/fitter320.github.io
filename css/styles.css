@@ -82,6 +82,7 @@ header img {
 
 .members li {
     padding-bottom: 64px;
+    margin: 0 auto;
 }
 
 .members img {
