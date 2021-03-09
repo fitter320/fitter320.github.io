@@ -6,10 +6,17 @@ body {
 }
 
 header {
-    background: #78FFFF;
+    background-image: url(../img/L2020775\ \(2\).JPG);
+    background-size: cover;
     color: #fff;
     text-align: center;
-    padding-top: 64px;
+    padding-top: 50px;
+    height: 480px;
+}
+
+header h1 {
+    font-size: 60px;
+    padding-bottom: 20px;
 }
 
 header h1,
@@ -32,8 +39,8 @@ header img {
 
 .btn {
     text-decoration: none;
-    background: rgba(0, 204, 255, 0.705);
-    color: #2A8EFF;
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
     display: block;
     width: 140px;
     line-height: 44px;
@@ -44,7 +51,7 @@ header img {
 }
 
 .btn:hover {
-    opacity: .9;
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .features img {
@@ -103,7 +110,7 @@ header img {
 }
 
 .call-to-action {
-    background: #78FFFF;
+    background: #9AD2FF;
     text-align: center;
     color: #fff;
     padding: 64px 0;
@@ -111,6 +118,11 @@ header img {
 
 .call-to-action h1 {
     font-weight: normal;
+}
+
+.call-to-action h1 span {
+    font-weight: bold;
+    color: #4F6CFF;
 }
 
 .call-to-action .btn {
@@ -130,14 +142,18 @@ footer p {
 }
 
 @media (min-width: 900px) {
+    header {
+        height: 700px;
+        padding-top: 250px;
+    }
+
     header .container {
-        display: flex;
         width: 800px;
         margin: 0 auto;
     }
 
     header .info {
-        width: 60%;
+        width: 100%;
         align-self: center;
     }
 
